@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LumiNest</title>
+   <link rel="icon" href="images/LN-ICON.png">
+
+   <!-- MY CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- FONTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+   <!-- FONT AWESOME ICONS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+   <!-- NAVBAR -->
+   <nav class="navbar" id="forarrowup">
+      <a href="index.html" id="head"><h1>LumiNest</h1></a>
+
+      <div class="navbar-links">
+         <p class="nav-link"><a href="index.html" class="navlinks">Home</a></p>
+         <p class="nav-link"><a href="collections.html" class="navlinks">Collections</a></p>
+         <p class="nav-link"><a href="contact.html" class="navlinks">Contact</a></p>
+      </div>
+
+      <div class="navbar-toggle-icon">
+             <i class="fa-solid fa-bars" onclick="showsidenav()"></i>
+      </div>
+   </nav>
+
+   <!-- SIDE-NAVBAR -->
+    <div class="side-navbar" id="side-navbar-id" >
+      <div id="x-mark" onclick="closesidenav()">
+         <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div>
+         <p class="side-nav-link"><a href="index.html">Home</a></p>
+         <p class="side-nav-link"><a href="collections.html">Collections</a></p>
+         <p class="side-nav-link"><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+     <div class="header">
+
+      <div class="header-container-1">
+         <h1>Level up your style</h1>
+         <p>with our stunning Collections</p>
+         <a href="#shopnowselect"><button>SHOP NOW</button></a>
+         </div>
+
+         <div class="header-container-2">
+            <img src="images/LN-1.jpg" alt="">
+      </div>
+     </div>
+
+     <!-- ARROW-UP -->
+     <div id="arrow-up-simbol">
+      <a href="#forarrowup"><i class="fa-solid fa-arrow-up" id="arrow-up"></i></a>
+  </div>
+
+     <!-- SERVICE -->
+      <div class="service">
+         <div class="service-container-1">
+            <h1>We Provide Best</h1>
+            <h1>Customer Experience</h1>
+         </div>
+
+         <div class="service-container-2">
+            <p>|| we ensure that our customer have the best shopping experience</p>
+         </div>
+      </div>
+
+      <div id="service-2">
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Satisfaction Guarantee</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero!"</p>
+         </div>
+
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>New Arrival Everyday</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero!</p>
+         </div>
+
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Fast & Free Shipping</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero!</p>
+         </div>
+      </div>
+
+      <!-- NEW ARRIVAL -->
+       <div id="shopnowselect">
+       <div class="new-arrival">
+         <h1>New Arrival</h1>
+         <div class="new-arrival-img" id="newarrival">
+            <div>
+               <img src="images/LN-2.jpg" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i  class="fa-solid fa-check add-done" style="display: none;" onclick="addcart(this)"></i>
+               <i  class="fa-solid fa-cart-shopping add-cart" onclick="addcheck(this)"></i>
+         
+            </div>
+
+            <div>
+               <img src="images/LN-3.avif" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i  class="fa-solid fa-check add-done" style="display: none;" onclick="addcart(this)"></i>
+               <i  class="fa-solid fa-cart-shopping add-cart" onclick="addcheck(this)"></i>
+
+            </div>
+
+            <div>
+               <img src="images/LN-4.jpg" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i  class="fa-solid fa-check add-done" style="display: none;" onclick="addcart(this)"></i>
+               <i  class="fa-solid fa-cart-shopping add-cart" onclick="addcheck(this)"></i>
+
+            </div>
+
+            <div>
+               <img src="images/LN-5.avif" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i class="fa-solid fa-check add-done " style="display: none;" onclick="addcart(this)"></i>
+               <i class="fa-solid fa-cart-shopping add-cart " onclick="addcheck(this)"></i>
+               
+            </div>
+         </div>
+
+         <!-- MOST WANTED WITHIN NEW ARRIVAL -->
+         <h1 style="margin-top: 2.3rem;" id="mostwanted">Most Wanted</h1>
+            <div class="most-wanted-img">
+            <div>
+               <img src="images/LN-6.jpg" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.6rem;">₹1000</h3>
+               <i class="fa-solid fa-check add-done " style="display: none;" onclick="addcart(this)"></i>
+               <i class="fa-solid fa-cart-shopping add-cart " onclick="addcheck(this)"></i>
+
+            </div>
+
+            <div>
+               <img src="images/LN-7.jpg" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem">₹1000</h3>
+               <i class="fa-solid fa-check add-done " style="display: none;" onclick="addcart(this)"></i>
+               <i class="fa-solid fa-cart-shopping add-cart " onclick="addcheck(this)"></i>
+               
+            </div>
+
+            <div>
+               <img src="images/LN-8.avif" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i class="fa-solid fa-check add-done " style="display: none;" onclick="addcart(this)"></i>
+               <i class="fa-solid fa-cart-shopping add-cart " onclick="addcheck(this)"></i>
+
+            </div>
+
+            <div>
+               <img src="images/LN-9.avif" alt="">
+               <a href="collections.html"><button class="button"> Shop Now <i style="margin-left: 0.3rem; margin-top: 0.1rem" class="fa-solid fa-arrow-right"></i></button></a>
+        
+               <h4 style="margin-top: 0.66rem; color:rgb(217, 4, 255)">adidas</h4>
+               <h3 style="color:black">Golden Glow Dresses</h3>
+               <i style="color: #FFA500; margin-left: 0.66rem;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <i style="color: #FFA500;" class="fa-solid fa-star"></i>
+               <h3 style="color:rgb(0, 255, 0); margin-bottom: 0.66rem;">₹1000</h3>
+               <i class="fa-solid fa-check add-done "style="display: none;"  onclick="addcart(this)"></i>
+               <i class="fa-solid fa-cart-shopping add-cart " onclick="addcheck(this)"></i>
+
+            </div>
+         </div>
+       </div>
+      </div>
+
+
+       <!-- NEWS -->
+        <div class="news-container">
+         <div class="news-container-1">
+             <h2>Sign Up For Newsletters</h2>
+             <p>Get E-mail updates about our latest shop and <p id="highlight">special offers.</p></p>
+         </div>
+
+         <div class="news-container-2">
+              <input type="email" placeholder="Your email address">
+              <button id="newsbutton">Sign Up</button>
+         </div>
+        </div>
+
+        
+        <!-- FOOTER -->
+         <div class="footer">
+            <div class="footerone">
+                 <h2>Reach Us</h2>
+                 <p style="margin-top: 0.9rem;"> <i class="fa-solid fa-map-marker-alt"></i> 123 Example Street, Siruseri, Chennai - 603103, Tamil Nadu, India</p>
+                 <p style="margin-top: 0.6rem;"> <i class="fas fa-phone"></i> +91 1234567890</p>
+                 <i class="fa-brands fa-instagram itag" style="margin-top: 0.6rem; padding: 0.66rem; margin-right: 0.55rem;"></i>
+                 <i class="fa-brands fa-twitter itag" style="margin-top: 0.6rem; padding: 0.66rem; margin-right: 0.55rem;"></i>
+                 <i class="fa-brands fa-facebook itag" style="margin-top: 0.6rem; padding: 0.66rem; margin-right: 0.55rem;"></i>
+                 <i class="fa-brands fa-youtube itag" style="margin-top: 0.6rem; padding: 0.66rem;"></i>
+                 <p style="margin-top: 0.6rem;"><i class="fas fa-envelope"></i>support@luminest.com</p>
+            </div>
+
+            <div class="footertwo">
+               <h2 class="footerh2">About Us</h2>
+               <p class="footerp ">At Luminest, we offer stylish, high-quality fashion that empowers you to express your unique personality and style.</p>
+            </div>
+
+            <div class="footerthree">
+               <h2 style="margin-bottom: 0.9rem;">Support</h2>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Privacy Policy</a>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Terms & Conditions</a>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Disclaimer</a>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Support</a>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>FAQ</a>
+              <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Help</a>
+            </div>
+         </div>
+
+
+   
+   <!-- JAVASCRIPT -->
+   <script src="main.js"></script>
+</body>
+
+</html>

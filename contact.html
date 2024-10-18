@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LumiNest</title>
+   <link rel="icon" href="images/LN-ICON.png">
+
+   <!-- MY CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- FONTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+   <!-- FONT AWESOME ICONS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+   <!-- NAVBAR -->
+   <nav class="navbar" id="forarrowup">
+      <a href="index.html" id="head"><h1>LumiNest</h1></a>
+
+      <div class="navbar-links">
+         <p class="nav-link"><a href="index.html">Home</a></p>
+         <p class="nav-link"><a href="collections.html">Collections</a></p>
+         <p class="nav-link"><a href="contact.html">Contact</a></p>
+      </div>
+
+      <div class="navbar-toggle-icon" onclick="showsidenav()">
+             <i class="fa-solid fa-bars"></i>
+      </div>
+   </nav>
+
+   <!-- SIDE-NAVBAR -->
+    <div class="side-navbar" id="side-navbar-id" >
+      <div id="x-mark" onclick="closesidenav()">
+         <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div>
+         <p class="side-nav-link"><a href="index.html">Home</a></p>
+         <p class="side-nav-link"><a href="collections.html">Collections</a></p>
+         <p class="side-nav-link"><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+    <!-- GET IN TOUCH & LEAVE A MESSAGE -->
+     <div class="gitlam">
+
+           <div class="git">
+               <h4 class="gith4" style="opacity: 0.6;">GET IN TOUCH</h4>
+               <h2 class="gith2">Visit one of our branch or contact us today</h2>
+               <h4 class="gith4">Head Office</h4>
+               <p class="gitp"> <i class="fa-solid fa-map-marker-alt" style="margin-right: 0.92rem;"></i> 123 Example Street, Siruseri, Chennai - 603103, Tamil Nadu, India</p>
+               <p class="gitp"> <i class="fa-regular fa-envelope" style="margin-right: 0.92rem;"></i> support@luminest.com</p>
+               <p class="gitp"> <i class="fas fa-phone" style="margin-right: 0.92rem;"></i> +91 1234567890</p>
+               <p class="gitp"> <i class="far fa-clock" style="margin-right: 0.92rem; margin-bottom: 1.3rem;"></i> Monday to Saturday: 9.00am to 7.00pm</p>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31121.583558152997!2d80.186207892605!3d12.830481898191806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a6e05dbef29%3A0xa6090ea15790566b!2sSiruseri%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1726117215255!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="linehorz"></div>
+
+            <div class="line"></div>
+
+           <div class="lam">
+                   <h4 class="lamh4" style="opacity: 0.6;">LEAVE A MESSAGE</h4>
+                   <h2 class="lamh2">We love to hear from you</h2>
+                   <form action="Thank You.html">
+                   <input class="laminput" type="text" placeholder="Your Name" required>
+                   <input class="laminput" type="text" placeholder="E-mail" required>
+                   <input class="laminput" type="text" placeholder="Subject" required>
+                   <textarea class="lamtextarea" placeholder="Your Message" required></textarea>
+                   <button>Share</button>
+                  </form>
+           </div>
+
+     </div>
+
+
+
+
+    <!-- NEWS -->
+    <div class="news-container">
+        <div class="news-container-1">
+            <h2>Sign Up For Newsletters</h2>
+            <p>Get E-mail updates about our latest shop and <p id="highlight">special offers.</p></p>
+        </div>
+
+        <div class="news-container-2">
+             <input type="email" placeholder="Your email address">
+             <button>Sign Up</button>
+             
+        </div>
+       </div>
+
+       
+        <!-- FOOTER -->
+        <div class="footer" onmouseenter="showarrowup()">
+         <div class="footerone">
+              <h2>Reach Us</h2>
+              <p style="margin-top: 15px;"> <i class="fa-solid fa-map-marker-alt"></i> 123 Example Street, Siruseri, Chennai - 603103, Tamil Nadu, India</p>
+              <p style="margin-top: 9px;"> <i class="fas fa-phone"></i> +91 1234567890</p>
+              <i class="fa-brands fa-instagram itag" style="margin-top: 9px; padding: 10px; margin-right: 8px;"></i>
+              <i class="fa-brands fa-twitter itag" style="margin-top: 9px; padding: 10px; margin-right: 8px;"></i>
+              <i class="fa-brands fa-facebook itag" style="margin-top: 9px; padding: 10px; margin-right: 8px;"></i>
+              <i class="fa-brands fa-youtube itag" style="margin-top: 9px; padding: 10px;"></i>
+              <p style="margin-top: 9px;"><i class="fas fa-envelope"></i>support@luminest.com</p>
+         </div>
+
+         <div class="footertwo">
+            <h2 class="footerh2">About Us</h2>
+            <p class="footerp ">At Luminest, we offer stylish, high-quality fashion that empowers you to express your unique personality and style.</p>
+         </div>
+
+         <div class="footerthree">
+            <h2 style="margin-bottom: 15px;">Support</h2>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Privacy Policy</a>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Terms & Conditions</a>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Disclaimer</a>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Support</a>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>FAQ</a>
+           <a href="#forarrowup" class="footer3"><i class="fas fa-angle-right"></i>Help</a>
+         </div>
+      </div>
+
+        <!-- JAVASCRIPT -->
+         <script src="main.js"></script>
+
+</body>
+</html>
